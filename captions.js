@@ -1,5 +1,5 @@
 captions[0] = ['3.8','8.1'];
-captions[1] = ['8.1','10'];
+captions[1] = ['8.3','9'];
 captions[2] = ['10.8','12.5'];
 	//And blood-black nothingness began to spin
 captions[3] = ['12.5','15.6'];
@@ -8,8 +8,8 @@ captions[5] = ['20.1','23.3'];
 	//Fuck off, skin-job!
 captions[6] = ['23.3','25.2'];
 	
-captions[7] = ['26.8','31.6'];
-captions[8] = ['32.7','33'];
+captions[7] = ['26','30'];
+captions[8] = ['32.5','33'];
 captions[9] = ['33.2','34'];
 	//Have you ever been in an institution?
 captions[10] = ['34','36'];
@@ -107,3 +107,7 @@ captions[76] = ['124.92','125.52'];
 captions[77] = ['125.52','127.28'];
 captions[78] = ['128.18','130.14'];
 captions[79] = ['132.58','135'];
+captions[80] = ['9.5','10.3'];
+captions[81] = ['31.8','32.4'];
+captions[82] = ['75','75.5'];
+captions[83] = ['16.6','17'];

@@ -6,127 +6,575 @@ Hide them when they receive the class 'off'
 Feel free to adjust the defaults to your needs.
 ********************************************** */
 #closed-captions p {
-	opacity: 0;
-	transition: .05s;
-	position: absolute;
+    opacity: 0;
+    transition: .05s;
+    position: absolute;
+    margin-left: 26em;
+    margin-right: 16em;
 }
+
 #closed-captions .on {
-	opacity: 1;
+    opacity: 1;
 }
+
 #closed-captions .off {
-	transition: .2s;
-	opacity: 0;
+    transition: .2s;
+    opacity: 0;
 }
+
+/*font voor sprekers*/
 .voice1 {
-	font-family: "Brenner Mono"; 
-    font-style: Italic; 
-    font-weight: 200; 
-    font-family: "Brenner Mono Light Italic"; 
+    font-family: "Brenner Mono Regular";
+    font-style: Normal;
+    font-weight: 600;
     color: crimson;
 }
 
-.voice2{
-font-family: "Brenner Mono"; 
-font-style: Normal; 
-font-weight: 400;
-color: dimgray
+.voice2 {
+    font-family: "Brenner Mono";
+    font-style: Normal;
+    font-weight: 400;
+    color: white;
 }
 
-.voice3{
-font-family: "Brenner Sans Condensed"; 
-font-style: Normal;
-font-weight: 800;
+.voice3 {
+    font-family: "Brenner Sans Condensed Bold";
+    font-style: Normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: blue;
 }
 
-.voice4{
-font-family: "Brenner Sans"; 
-    font-style: Normal; 
-    font-weight: 200;
+.voice4 {
+    font-family: "Brenner Mono Regular";
+    font-style: Normal;
+    font-weight: 600;
     font-size: 17px;
     color: darkolivegreen;
 }
 
-/*iframe {
-    color: aqua;
-    padding: 7px;
-    background-color: yellowgreen;
-    margin-left: auto;
-    margin-right: auto;
-}*/
+.voice5 {
+    font-family: "Brenner Mono";
+    font-style: Normal;
+    font-weight: 600;
+    color: white;
+}
+
+#closed-captions {}
 
 
-/* **********************************************
-The first paragraph, with extended timing for 
-	all siblings. Basically what it does is that
-	it shows the text after a delay, which 
-	corresponds with the time that the word is
-	spoken.
-You probably want to change the styling.
-********************************************** */
+body {
+    background-color: black;
+    text-align: center;
+    margin-top: 10%;
+}
+
+/*0:07 alarm beeld schud*/
+.sound1 iframe {
+    animation-name: inzoomen;
+    animation-duration: 1s;
+
+}
+
+@keyframes inzoomen {
+    20% {
+        transform: rotate(5deg);
+    }
+
+    40% {
+        transform: rotate(-5deg);
+    }
+
+    60% {
+        transform: rotate(5deg);
+    }
+
+    80% {
+        transform: rotate(-5deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.sound1 {
+    animation-name: alarm;
+    animation-duration: 1s;
+}
+
+@keyframes alarm {
+    20% {
+        background-color: red;
+    }
+
+    60% {
+        background-color: red;
+    }
+
+    80% {
+        background-color: black;
+    }
+
+    100% {
+        background-color: red;
+    }
+}
+
+.sound2 {
+    animation-name: buzzalarm;
+    animation-duration: 1s;
+}
+
+@keyframes buzzalarm {
+    20% {
+        background: rgb(255, 0, 0);
+        background: radial-gradient(circle, rgba(255, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 80%);
+    }
+
+    60% {
+        background-color: black;
+        transform: scale(1.2);
+    }
+
+    80% {
+        background: rgb(255, 0, 0);
+        background: radial-gradient(circle, rgba(255, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 80%);
+    }
+
+    100% {
+        background-color: black;
+        transform: scale(1);
+    }
+}
+
+.sound4 {
+    animation-name: buzzalarm2;
+    animation-duration: 1s;
+}
+
+@keyframes buzzalarm2 {
+    20% {
+        background: rgb(0, 0, 0);
+        background: radial-gradient(circle, rgba(0, 0, 0, 1) 70%, rgba(255, 0, 0, 1) 100%);
+    }
+
+    60% {
+        background-color: black;
+        transform: scale(1.2);
+    }
+
+    80% {
+        background: rgb(0, 0, 0);
+        background: radial-gradient(circle, rgba(0, 0, 0, 1) 70%, rgba(255, 0, 0, 1) 100%);
+    }
+
+    100% {
+        background-color: black;
+        transform: scale(1);
+    }
+}
+.sound4 #closed-captions p {
+padding-left: -2em;
+margin-left: 26em;
+margin-right: 25em;
+}
+.sound5 #closed-captions p {
+padding-left: -2em;
+margin-left: 21em;
+margin-right: 25em;
+}
+.sound6 #closed-captions p {
+padding-left: -2em;
+margin-left: 23em;
+margin-right: 25em;
+}
+
+.sound7 #closed-captions p {
+padding-left: -2em;
+margin-left: 25.5em;
+margin-right: 25em;
+}
+
+/*achtergrond kleur veranderen*/
+.sound8 {
+    background-color: #A8B29C;
+    animation-name: piep;
+    animation-duration: 1s;
+    animation-delay: 1s;
+}
+
+.sound9 {
+    animation-name: piep;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-iteration-count: 42;
+    background-color: #A8B29C;
+
+}
+
+@keyframes piep {
+    5% {
+        background-color: white;
+    }
+
+    10% {
+        background-color: #A8B29C;
+    }
+
+    15% {
+        background-color: white;
+    }
+
+    20% {
+        background-color: #A8B29C;
+    }
+
+    25% {
+        background-color: white;
+    }
+
+    30% {
+        background-color: #A8B29C;
+    }
+
+    35% {
+        background-color: white;
+    }
+
+    40% {
+        background-color: #A8B29C;
+    }
+
+    45% {
+        background-color: white;
+    }
+
+    50% {
+        background-color: #A8B29C
+    }
+
+    55% {
+        background-color: white;
+    }
+
+    60% {
+        background-color: #A8B29C;
+    }
+
+    65% {
+        background-color: white;
+    }
+
+    70% {
+        background-color: #A8B29C;
+    }
+
+    75% {
+        background-color: white;
+    }
+
+    80% {
+        background-color: #A8B29C;
+    }
+
+    85% {
+        background-color: white;
+    }
+
+    90% {
+        background-color: #A8B29C;
+    }
+
+    95% {
+        background-color: white;
+    }
+
+    100% {
+        background-color: #A8B29C;
+    }
+}
+
+.sound9 iframe {
+    animation-name: shaken;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-iteration-count: 42;
+
+}
+
+@keyframes shaken {
+    5% {
+        transform: rotate(5deg);
+    }
+
+    10% {
+        transform: rotate(-5deg);
+    }
+
+    15% {
+        transform: rotate(5deg);
+    }
+
+    20% {
+        transform: rotate(-5deg);
+        transform: scale(1.1);
+    }
+
+    25% {
+        transform: rotate(5deg);
+    }
+
+    30% {
+        transform: rotate(-5deg);
+    }
+
+    35% {
+        transform: rotate(5deg);
+    }
+
+    40% {
+        transform: rotate(-5deg);
+        transform: scale(1.3);
+    }
+
+    45% {
+        transform: rotate(5deg);
+    }
+
+    50% {
+        transform: rotate(-5deg);
+    }
+
+    55% {
+        transform: rotate(5deg);
+    }
+
+    60% {
+        transform: rotate(-5deg);
+        transform: scale(1.4);
+    }
+
+    65% {
+        transform: rotate(5deg);
+    }
+
+    70% {
+        transform: rotate(-5deg);
+    }
+
+    75% {
+        transform: rotate(5deg);
+    }
+
+    80% {
+        transform: rotate(-5deg);
+        transform: scale(1.5);
+    }
+
+    85% {
+        transform: rotate(5deg);
+    }
+
+    90% {
+        transform: rotate(-5deg);
+    }
+
+    95% {
+        transform: rotate(5deg);
+    }
+
+    100% {
+        transform: rotate(-5deg);
+        transform: scale(1.6);
+    }
+}
+
+.sound9 #closed-captions p {
+    margin-top: 8em;
+    margin-left: 23.5em;
+}
+
+
+.sound10 iframe {
+    animation: normaal;
+    animation-duration: 1s;
+}
+
+@keyframes normaal {
+    to {
+        transform: rotate(0deg);
+        transform: scale(1);
+    }
+}
+
+.sound10 #closed-captions p {
+    margin-top: 1em;
+    margin-left: 24.5em;
+    margin-right: 16em;
+}
+
 /*
-.p0 span {
-	opacity: 0;
-	font-family: brenner;
+/ groene flits na test/
+.sound10{
+animation: groenlicht;
+animation-duration: 1s;   
 }
-.p0.on span:first-of-type {
-	opacity: 1;
-	transition: 0s;
-	font-weight: 200;
+
+@keyframes groenlicht {
+    50% {
+background: rgb(67,255,0);
+background: radial-gradient(circle, rgba(67,255,0,1) 0%, rgba(168,178,156,1) 41%);
+    }
 }
-.p0.on span:nth-of-type(2) {
-	opacity: 1;
-	transition: 0s .4s;
-	margin-right: -.25em;
-	font-weight: 400;
+
+/ bewegende lijnen/
+.sound9 #lijn1{
+border-left: 4px solid #748165;
+height: 65em;
+margin-top:-45em;  
+width: 1px;
+margin-left: .5em;
+opacity: 1;
+animation-name: trillen;
+animation-duration: 1s;
+animation-fill-mode: both;
+animation-iteration-count: 19; 
 }
-.p0.on span:nth-of-type(3) {
-	opacity: 1;
-	transition: 0s .5s;
-	margin-right: -.25em;
-	font-weight: 600;
+.sound9 #lijn2{
+border-left: 4px solid #748165;
+height: 60em;
+margin-top:-55em;  
+width: 1px;
+margin-left: 28.5em;
+opacity: 1;
+animation-name: trillen;
+animation-duration: 1s;
+animation-fill-mode: both;
+animation-iteration-count: 19;  
 }
-.p0.on span:nth-of-type(4) {
-	opacity: 1;
-	transition: 0s .7s;
-	margin-right: -.25em;
-	font-weight: 800;
+.sound9 #lijn3{
+ border-left: 4px solid #748165;
+height: 60em;
+margin-top:-65em;  
+width: 1px;
+margin-left: 60.3em;
+opacity: 1;
+animation-name: trillen;
+animation-duration: 1s;
+animation-fill-mode: both;
+animation-iteration-count: 19;   
 }
-.p0.on span:nth-of-type(5) {
-	opacity: 1;
-	transition: 0s 1.1s;
-	margin-right: -.25em;
-	font-family: "brenner sans";
+.sound9 #lijn4{
+ border-left: 4px solid #748165;
+height: 65em;
+margin-top:-65em;
+margin-left: 88.5em;
+width: 1px;
+margin-left: 87em;
+opacity: 1;
+animation-name: trillen;
+animation-duration: 1s;
+animation-fill-mode: both;
+animation-iteration-count: 19;   
 }
-.p0.on span:nth-of-type(6) {
-	opacity: 1;
-	transition: 0s 1.4s;
-	margin-right: -.25em;
-	font-family: "brenner display";
+
+@keyframes trillen{
+   10%{
+    opacity: 1;
+       transform:translate3d( -5px, 0, 0)
+    } 
+    20%{
+         transform:translate3d(5px, 0, 0)
+    } 
+    30%{
+        transform:translate3d(-5px, 0, 0)
+    } 
+    40%{
+         transform:translate3d(5px, 0, 0)
+    } 
+    50%{
+        transform:translate3d(-5px, 0, 0)
+    } 
+    60%{
+         transform:translate3d(5px, 0, 0)
+    } 
+    70%{
+        transform:translate3d(-5px, 0, 0)
+    } 
+    80%{
+         transform:translate3d(5px, 0, 0)
+    } 
+    90%{
+        transform:translate3d(-5px, 0, 0)
+    } 
+    100%{
+         transform:translate3d(5px, 0, 0)
+
+    }  
 }
-.p0.on span:nth-of-type(7) {
-	opacity: 1;
-	transition: 0s 1.7s;
-	margin-right: -.25em;
-	font-family: "brenner script";
+
+.sound9 #lijn5 {
+border: 2px solid #748165;
+margin-top:-50em;
+opacity: 1;
+animation-name: trillen2;
+animation-duration: 1s;
+animation-fill-mode: both;
+animation-iteration-count: 19;
 }
-.p0.on span:nth-of-type(8) {
-	opacity: 1;
-	transition: 0s 2s;
-	font-family: "brenner script";
+
+.sound9 #lijn6 {
+border: 2px solid #748165;
+margin-top:16.5em;    
+opacity: 1;
+animation-name: trillen2;
+animation-duration: 1s;
+animation-fill-mode: both;
+animation-iteration-count: 19;
 }
-.p0.on span:nth-of-type(9) {
-	opacity: 1;
-	transition: 0s 3s;
-	font-family: "brenner Sans condensed";
+
+.sound9 #lijn7 {
+border: 2px solid #748165;
+margin-top:17em;  
+opacity: 1;
+animation-name: trillen2;
+animation-duration: 1s;
+animation-fill-mode: both;
+animation-iteration-count: 19;
 }
-.p0.on span:nth-of-type(10) {
-	opacity: 1;
-	transition: 0s 3.2s;
-	font-family: "brenner mono";
-}
-.p0.on span:nth-of-type(11) {
-	opacity: 1;
-	transition: 0s 3.7s;
-	font-family: "brenner slab";
+
+@keyframes trillen2{
+   10%{
+       transform:translate3d(0, -5px, 0)
+    } 
+    20%{
+         transform:translate3d(0, 5px, 0)
+    } 
+    30%{
+        transform:translate3d(0, -5px, 0)
+    } 
+    40%{
+         transform:translate3d(0, 5px, 0)
+    } 
+    50%{
+        transform:translate3d(0, -5px, 0)
+    } 
+    60%{
+         transform:translate3d(0, 5px, 0)
+    } 
+    70%{
+        transform:translate3d(0, -5px, 0)
+    } 
+    80%{
+         transform:translate3d(0, 5px, 0)
+    } 
+    90%{
+        transform:translate3d(0, -5px, 0)
+    } 
+    100%{
+         transform:translate3d(0, 5px, 0)
+
+    }  
 }
 */

@@ -4,14 +4,14 @@
 
 # Exclusive design principles
 
-## Study situation
+### Study situation
 Om een beter beeld te krijgen van de context heb ik de film Blade runner 2049 gekeken.
 Hierdoor begreep ik het fragment beter want Joe moet kennelijk een baseline test doen om aan te tonen dat hij emotionele afwijking heeft. De scene komt best intens over. Nu is het voor mij een uitdaging om die intensiteit te verwerken in beeldelementen.
 
-## Ignore conventions
+### Ignore conventions
 Het is belangrijk om een consistent design te hebben. Zo staat de tekst altijd onder het iframe en staat het meestal op dezelfde plek. Op het moment dat iemand praat wordt er altijd weergeven wie er aan het woord is. Verder valt het ook op dat de achtergrond dezelfde kleur heeft als de achtergrond van de film.
 
-## Prioritise identity
+### Prioritise identity
 Ik bewerk dit filmfragment specifiek voor Darice. Darice is op latere leeftijd doof geworden. Ze is helemaal doof en maakt gebruik van een schrijftolk. Dit zijn de elementen die Darice belangrijk/leuk vindt wanneer zij een film kijkt:
 -	Als er muziek te horen is wil ze de lyrics zien en de emotie moet ook overgebracht worden.
 -	Donkergrijze teksten vindt ze mooi.
@@ -25,12 +25,10 @@ Ik vind het belangrijk om zoveel mogelijk elementen toe te voegen die Darice bel
 
 Ik ben de designer en zelf vind ik niet dat ik nog een stijl heb ontwikkeld waarin je mijn werk herkent. Ik probeer zoveel mogelijk om met nieuwe ideeën te komen. Wat ik belangrijk vind is dat de toegevoegde elementen passen bij de film. 
 
-## Add nonsense
+### Add nonsense
 Om het filmfragment zo leuk mogelijk te maken wil ik de scenes zo intens mogelijk maken. Zelf vind ik dat de scenes niet zoveel spanning hebben maar toen ik het zonder geluid had bekeken merkte ik dat je best wel veel sfeer mist van de film. Daarom vind ik het zo belangrijk om overboard te gaan met mijn ideeën en dat is ook gelukt.
 
-
-
-
+---
 
 # Typografie
 Ik heb ervoor gekozen om Brenner te gebruiken omdat ik vind dat ik de emoties dan beter kan over brengen. Het font heeft veel opties om uit te kiezen. In het fragment wordt Joe geïnterviewd door iemand en ik denk dat ik het veel beter kan overbrengen als ik hiervoor verschillende fonts gebruik. Ook moet ik rekening houden met de achtergrond kleur anders zijn de fonts niet goed zichtbaar.
@@ -91,14 +89,15 @@ Versie 2
  
 De sound effects heb ik de font Brenner Mono gegeven omdat het heel neutraal overkomt. De kleur van het font is wit wat ik neutraal vind.
 
- 
+---
+ 
 # Proces
 
 ## Versie 1
 In week 1 heb ik me alleen gefocust op de typografie. Ik heb ervoor gezorgd dat elke spreker zijn font is aangepast.
  
 
-Feedback
+#### Feedback
 Darice 
 1.	Voeg annotaties van de sound effects toe. 
 2.	Op het moment dat Joe 3 keer achter elkaar interlinked zegt moet je duidelijk laten zien dat hij het 3 keer zegt. 
@@ -134,12 +133,13 @@ Eerst heb ik lijnen toegevoegd die op dezelfde positie staan als de lijnen van d
 Wanneer de baseline is afgelopen zie je een groen lampje om aan te tonen dat hij de baseline test heeft gehaald. Ik heb dit er uiteindelijk uitgehaald omdat ik vind dat dat groene flits er niet mooi uitziet.
  
 
-Feedback
+#### Feedback
 Darice 
 1.	De fonts zijn prima.
 2.	De scene van de baseline test is te intens het mag wel wat minder.
+
 Vasilis
-2.	Zorg voor een balans tussen je animaties.
+1.	Zorg voor een balans tussen je animaties.
 
 ## Versie 3
 0:07 [ALARM]

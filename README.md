@@ -36,18 +36,19 @@ Ik heb ervoor gekozen om Brenner te gebruiken omdat ik vind dat ik de emoties da
 In het fragment zijn er 4 sprekers:
 Interviewer 1 class = ‘.voice1’
 De interviewer stelt vragen aan Joe op een serieuze toon.
-Week 1
+Versie 1
+ <img width="300" alt="portfolio_view" src="readme-fotos/brennermonolight.png">
  
 Ik heb gekozen voor Brenner Mono Light omdat het een dunne font is die mij het gevoel van autoriteit. Ik heb het font een rode kleur (crimson) gegeven omdat de interviewer onaardig en serieus overkomt.
 
 Versie 2 en versie 3
- 
+ <img width="300" alt="portfolio_view" src="readme-fotos/brennermonomedium.png">
 Darice heeft me als feedback gegeven om de letter dikker te maken daarom heb ik gekozen voor Brenner Mono Medium. Deze font is dikker dan versie 1. De kleur is hetzelfde gebleven
 
 Joe class = ‘.voice 2’
 Joe (Officer K D 6 - 3 . 7) is de hoofdpersoon in de film. Joe praat op een normale en serieuze manier.
 Versie 1
- 
+ <img width="300" alt="portfolio_view" src="readme-fotos/brennermonoregular.png">
 Voor Joe heb ik gekozen voor Brenner Mono Regular. Ik heb voor deze font gekozen omdat ik wil dat de hoofdpersoon een neutrale font heeft. Het font heeft een grijze kleur (dim gray) omdat Darice donkergrijze teksten mooi vindt.
 
 Versie 2 en versie 3
@@ -56,11 +57,11 @@ Ik heb de kleur van het font veranderd omdat het font anders niet goed te lezen 
 Officer = ‘.voice3’
 Wanneer Joe op de gang loopt en oogcontact maakt met een agent wordt hij door hem uitgescholden. De agent heeft een agressieve stem.
 Versie 1
- 
+<img width="300" alt="portfolio_view" src="readme-fotos/brennersanscondensedbolditalic.png"> 
 Ik heb gekozen voor de font Brenner Sans Condensed  Bold Italic omdat de agent op een agressieve toon praat. Hierom vind ik het ook toepasselijk om een dikke font te kiezen. De kleur van het font is zwart.
 
 Versie 2
- 
+<img width="300" alt="portfolio_view" src="readme-fotos/brennersanscondensedregular.png"> 
 Ik heb ervoor gekozen om een dunnere font te gebruiken namelijk Brenner Sans Condensed Regular, omdat ik dat de toon beter overkomt. De kleur van het font heb ik veranderd naar donkerblauw omdat de achtergrond zwart is waardoor de tekst niet zichtbaar is. Ik heb voor blauw gekozen omdat de spreker een agent is.
 
 Versie 3
@@ -70,23 +71,21 @@ Interviewer 2 class = ‘.voice4’
 Als Joe klaar is met de baseline test hoort hij van de tweede interviewer hoe hij het heeft gedaan. Ook deze interview praat met een serieuze toon.
 
 Versie 1
- 
+ <img width="300" alt="portfolio_view" src="readme-fotos/brennersanslight.png">
 Ik heb gebruik gemaakt van Brenner Sans Light, omdat deze interviewer ook een serieuze toon heeft. Ik heb ervoor gekozen om een groene (dark olive green) font te gebruiken omdat de interviewer Joe vertelt dat hij de baseline test heeft gehaald.
 
-
-
 Versie 2
- 
+<img width="300" alt="portfolio_view" src="readme-fotos/brennermonolight.png">
 Omdat de stem en toon van interviewer 1 en 2 identiek is heb ik interviewer 2 dezelfde font gegeven als interviewer 1. 
 
 Versie 3
- 
+<img width="300" alt="portfolio_view" src="readme-fotos/brennermonomedium.png">
 Ik heb gekozen voor een dikkere font omdat het dan beter te lezen is voor Darice. Dit is dezelfde font als interviewer 1.
 
 
 Verder hoor je ook sound effects. Alle sound effect vallen onder de class= ‘.voice5’.
 Versie 2
- 
+ <img width="300" alt="portfolio_view" src="readme-fotos/brennermonomedium.png">
 De sound effects heb ik de font Brenner Mono gegeven omdat het heel neutraal overkomt. De kleur van het font is wit wat ik neutraal vind.
 
 ---

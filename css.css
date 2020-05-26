@@ -69,7 +69,10 @@ body {
     margin-top: 10%;
 }
 
+/*************************/
 /*0:07 alarm beeld schud*/
+/*************************/
+
 .sound1 iframe {
     animation-name: inzoomen;
     animation-duration: 1s;
@@ -78,19 +81,19 @@ body {
 
 @keyframes inzoomen {
     20% {
-        transform: rotate(5deg);
+        transform: rotate(20deg);
     }
 
     40% {
-        transform: rotate(-5deg);
+        transform: rotate(-20deg);
     }
 
     60% {
-        transform: rotate(5deg);
+        transform: rotate(20deg);
     }
 
     80% {
-        transform: rotate(-5deg);
+        transform: rotate(-20deg);
     }
 
     100% {
@@ -121,6 +124,10 @@ body {
     }
 }
 
+/*************************/
+/*0:10 alarm beeld schud*/
+/*************************/
+
 .sound2 {
     animation-name: buzzalarm;
     animation-duration: 1s;
@@ -134,7 +141,7 @@ body {
 
     60% {
         background-color: black;
-        transform: scale(1.2);
+        transform: scale(2.6);
     }
 
     80% {
@@ -147,6 +154,10 @@ body {
         transform: scale(1);
     }
 }
+
+/*************************/
+/*0:16 alarm beeld schud*/
+/*************************/
 
 .sound4 {
     animation-name: buzzalarm2;
@@ -161,7 +172,7 @@ body {
 
     60% {
         background-color: black;
-        transform: scale(1.2);
+        transform: scale(1.5);
     }
 
     80% {
@@ -179,15 +190,37 @@ padding-left: -2em;
 margin-left: 26em;
 margin-right: 25em;
 }
+
+/*************************/
+/*0:26 fuck off, skin-job*/
+/*************************/
+
 .sound5 #closed-captions p {
-padding-left: -2em;
-margin-left: 21em;
-margin-right: 25em;
+font-size: 2em;
+margin-left: 13em;
+margin-right: 2em;
 }
+
+.sound5{
+    animation-name: uitzoomen;
+    animation-duration: 1s;
+}
+
+@keyframes uitzoomen {
+    30% {
+        transform: scale(0.5);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
 .sound6 #closed-captions p {
 padding-left: -2em;
 margin-left: 23em;
 margin-right: 25em;
+font-size: 1em;
 }
 
 .sound7 #closed-captions p {
@@ -196,114 +229,190 @@ margin-left: 25.5em;
 margin-right: 25em;
 }
 
-/*achtergrond kleur veranderen*/
+
+/*************************/
+/*0:32 baselinetest in speciale kamer*/
+/*************************/
+
+.sound8 #closed-captions p {
+    margin-top: 8em;
+    margin-left: 23.5em;
+}
+
 .sound8 {
     background-color: #A8B29C;
-    animation-name: piep;
+    animation-name: flits1;
     animation-duration: 1s;
-    animation-delay: 1s;
+    animation-iteration-count: 28;
+    animation-delay: 0s;
 }
-
-.sound9 {
-    animation-name: piep;
-    animation-duration: 1s;
-    animation-fill-mode: both;
-    animation-iteration-count: 42;
-    background-color: #A8B29C;
-
-}
-
-@keyframes piep {
-    5% {
-        background-color: white;
-    }
-
+@keyframes flits1 {
     10% {
-        background-color: #A8B29C;
-    }
-
-    15% {
         background-color: white;
     }
-
     20% {
         background-color: #A8B29C;
     }
-
-    25% {
-        background-color: white;
-    }
-
     30% {
-        background-color: #A8B29C;
-    }
-
-    35% {
         background-color: white;
     }
-
     40% {
         background-color: #A8B29C;
     }
-
-    45% {
-        background-color: white;
-    }
-
     50% {
-        background-color: #A8B29C
-    }
-
-    55% {
         background-color: white;
     }
-
     60% {
         background-color: #A8B29C;
     }
-
-    65% {
-        background-color: white;
-    }
-
     70% {
-        background-color: #A8B29C;
-    }
-
-    75% {
         background-color: white;
     }
-
     80% {
         background-color: #A8B29C;
     }
+    90% {
+        background-color: white;
+    }
+    100% {
+        background-color: #A8B29C;
+    }
+}
 
+.sound8 iframe {
+    animation-name: shaken1;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-iteration-count: 25;
+}
+
+@keyframes shaken1 {
+    10% {
+        transform: rotate(5deg);
+    }
+
+    20% {
+        transform: rotate(-5deg);
+    }
+
+    30% {
+        transform: rotate(5deg);
+    }
+
+    40% {
+        transform: rotate(-5deg);
+    }
+
+    50% {
+        transform: rotate(5deg);
+    }
+
+    60% {
+        transform: rotate(-5deg);
+    }
+
+    70% {
+        transform: rotate(5deg);
+    }
+
+
+    80% {
+        transform: rotate(-5deg);
+    }
+    
+    90% {
+        transform: rotate(5deg);
+    }
+
+    100% {
+        transform: rotate(-5deg);
+    }
+}
+
+/*************************/
+/*0:58 piep wordt intenser*/
+/*************************/
+
+.sound9 {
+    animation-name: flits2;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-iteration-count: 17;
+    background-color: #A8B29C;
+}
+
+@keyframes flits2 {
+    5% {
+        background-color: white;
+    }
+    10% {
+        background-color: #A8B29C;
+    }
+    15% {
+        background-color: white;
+    }
+    20% {
+        background-color: #A8B29C;
+    }
+    25% {
+        background-color: white;
+    }
+    30% {
+        background-color: #A8B29C;
+    }
+    35% {
+        background-color: white;
+    }
+    40% {
+        background-color: #A8B29C;
+    }
+    45% {
+        background-color: white;
+    }
+    50% {
+        background-color: #A8B29C;
+    }
+    55% {
+        background-color: white;
+    }
+    60% {
+        background-color: #A8B29C;
+    }
+    65% {
+        background-color: white;
+    }
+    70% {
+        background-color: #A8B29C;
+    }
+    75% {
+        background-color: white;
+    }
+    80% {
+        background-color: #A8B29C;
+    }
     85% {
         background-color: white;
     }
-
     90% {
         background-color: #A8B29C;
     }
-
     95% {
         background-color: white;
     }
-
     100% {
         background-color: #A8B29C;
     }
 }
 
 .sound9 iframe {
-    animation-name: shaken;
+    animation-name: shaken2;
     animation-duration: 1s;
     animation-fill-mode: both;
     animation-iteration-count: 42;
 
 }
 
-@keyframes shaken {
+@keyframes shaken2 {
     5% {
         transform: rotate(5deg);
     }
@@ -394,8 +503,9 @@ margin-right: 25em;
     margin-top: 8em;
     margin-left: 23.5em;
 }
-
-
+/*************************/
+/*1:16 piep stopt*/
+/*************************/
 .sound10 iframe {
     animation: normaal;
     animation-duration: 1s;
@@ -410,171 +520,9 @@ margin-right: 25em;
 
 .sound10 #closed-captions p {
     margin-top: 1em;
-    margin-left: 24.5em;
+    margin-left: 26em;
     margin-right: 16em;
 }
-
-/*
-/ groene flits na test/
-.sound10{
-animation: groenlicht;
-animation-duration: 1s;   
+.sound11{
+background-color:#253638;
 }
-
-@keyframes groenlicht {
-    50% {
-background: rgb(67,255,0);
-background: radial-gradient(circle, rgba(67,255,0,1) 0%, rgba(168,178,156,1) 41%);
-    }
-}
-
-/ bewegende lijnen/
-.sound9 #lijn1{
-border-left: 4px solid #748165;
-height: 65em;
-margin-top:-45em;  
-width: 1px;
-margin-left: .5em;
-opacity: 1;
-animation-name: trillen;
-animation-duration: 1s;
-animation-fill-mode: both;
-animation-iteration-count: 19; 
-}
-.sound9 #lijn2{
-border-left: 4px solid #748165;
-height: 60em;
-margin-top:-55em;  
-width: 1px;
-margin-left: 28.5em;
-opacity: 1;
-animation-name: trillen;
-animation-duration: 1s;
-animation-fill-mode: both;
-animation-iteration-count: 19;  
-}
-.sound9 #lijn3{
- border-left: 4px solid #748165;
-height: 60em;
-margin-top:-65em;  
-width: 1px;
-margin-left: 60.3em;
-opacity: 1;
-animation-name: trillen;
-animation-duration: 1s;
-animation-fill-mode: both;
-animation-iteration-count: 19;   
-}
-.sound9 #lijn4{
- border-left: 4px solid #748165;
-height: 65em;
-margin-top:-65em;
-margin-left: 88.5em;
-width: 1px;
-margin-left: 87em;
-opacity: 1;
-animation-name: trillen;
-animation-duration: 1s;
-animation-fill-mode: both;
-animation-iteration-count: 19;   
-}
-
-@keyframes trillen{
-   10%{
-    opacity: 1;
-       transform:translate3d( -5px, 0, 0)
-    } 
-    20%{
-         transform:translate3d(5px, 0, 0)
-    } 
-    30%{
-        transform:translate3d(-5px, 0, 0)
-    } 
-    40%{
-         transform:translate3d(5px, 0, 0)
-    } 
-    50%{
-        transform:translate3d(-5px, 0, 0)
-    } 
-    60%{
-         transform:translate3d(5px, 0, 0)
-    } 
-    70%{
-        transform:translate3d(-5px, 0, 0)
-    } 
-    80%{
-         transform:translate3d(5px, 0, 0)
-    } 
-    90%{
-        transform:translate3d(-5px, 0, 0)
-    } 
-    100%{
-         transform:translate3d(5px, 0, 0)
-
-    }  
-}
-
-.sound9 #lijn5 {
-border: 2px solid #748165;
-margin-top:-50em;
-opacity: 1;
-animation-name: trillen2;
-animation-duration: 1s;
-animation-fill-mode: both;
-animation-iteration-count: 19;
-}
-
-.sound9 #lijn6 {
-border: 2px solid #748165;
-margin-top:16.5em;    
-opacity: 1;
-animation-name: trillen2;
-animation-duration: 1s;
-animation-fill-mode: both;
-animation-iteration-count: 19;
-}
-
-.sound9 #lijn7 {
-border: 2px solid #748165;
-margin-top:17em;  
-opacity: 1;
-animation-name: trillen2;
-animation-duration: 1s;
-animation-fill-mode: both;
-animation-iteration-count: 19;
-}
-
-@keyframes trillen2{
-   10%{
-       transform:translate3d(0, -5px, 0)
-    } 
-    20%{
-         transform:translate3d(0, 5px, 0)
-    } 
-    30%{
-        transform:translate3d(0, -5px, 0)
-    } 
-    40%{
-         transform:translate3d(0, 5px, 0)
-    } 
-    50%{
-        transform:translate3d(0, -5px, 0)
-    } 
-    60%{
-         transform:translate3d(0, 5px, 0)
-    } 
-    70%{
-        transform:translate3d(0, -5px, 0)
-    } 
-    80%{
-         transform:translate3d(0, 5px, 0)
-    } 
-    90%{
-        transform:translate3d(0, -5px, 0)
-    } 
-    100%{
-         transform:translate3d(0, 5px, 0)
-
-    }  
-}
-*/

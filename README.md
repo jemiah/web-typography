@@ -158,6 +158,7 @@ Het iframe zoomd in en achter het iframe schijnt rood licht.
 #### 0:17 [BEEP ALARM]
 
 Het iframe zoomt in en op de achtergrond zie je dat er aan de zijkant rood licht gloeit.
+
 <img width="300" alt="portfolio_view" src="readme-fotos/beep alarm.png">
 
 
@@ -170,6 +171,7 @@ Eerst heb ik lijnen toegevoegd die op dezelfde positie staan als de lijnen van d
 #### 1:17 einde van de baseline test
 
 Wanneer de baseline is afgelopen zie je een groen lampje om aan te tonen dat hij de baseline test heeft gehaald. Ik heb dit er uiteindelijk uitgehaald omdat ik vind dat dat groene flits er niet mooi uitziet.
+
 <img width="300" alt="portfolio_view" src="readme-fotos/groen licht.png">
 
 #### Feedback
@@ -192,6 +194,7 @@ Ook hier heb ik het ervoor gezorgd dat het iframe wat groter wordt.
 
 #### 0:23 fuck-off, skin job!
 Om deze line intenser te maken wordt het iframe heel klein wanneer de agent praat.
+
 <img width="300" alt="portfolio_view" src="readme-fotos/fuck-off.png">
 
 #### 0:32 [HIGH-PITCHED WHIRRING]

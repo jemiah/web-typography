@@ -1,7 +1,7 @@
 # Web Typography
 Het filmfragment is bewerkt tot 1:26.
 
-[Prototype](https://jemiah.github.io/web-typography/index.html)
+[Prototype](https://jemiah.github.io/web-typography/)
 
 # Exclusive design principles
 

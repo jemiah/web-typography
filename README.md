@@ -139,16 +139,18 @@ Vasilis
 Ik heb alle feedback van week 1 verwerkt en ik ben gaan experimenteren.
 Ik wilde dat de kijker het gevoel kreeg alsof ze in de film zaten dus heb ik de achtergrond dezelfde kleur gegeven als de kleur van de achtergrond van de film.
 
-<img width="300" alt="portfolio_view" src="readme-fotos/zwart.png"><img width="300" alt="portfolio_view" src="readme-fotos/groen.png">
+<img width="300" alt="portfolio_view" src="readme-fotos/zwart.png">  <img width="300" alt="portfolio_view" src="readme-fotos/groen.png">
 
 Ik heb de soundeffects vormgegeven en ik heb tekstueel aangegeven wat voor geluid je hoort.
 
 0:07 [ALARM]
 Het iframe schudt heen en weer terwijl je op de achtergrond een rode flits ziet.
+
 <img width="300" alt="portfolio_view" src="readme-fotos/alarm.png"> 
 
 0:12 [BUZZ ALARM]
 Het iframe zoomd in en achter het iframe schijnt rood licht.
+
 <img width="300" alt="portfolio_view" src="readme-fotos/buzz alarm.png">
 
 0:17 [BEEP ALARM]
@@ -158,6 +160,7 @@ Het iframe zoomt in en op de achtergrond zie je dat er aan de zijkant rood licht
 
 0:32 [HIGH-PITCHED WHIRRING]
 Eerst heb ik lijnen toegevoegd die op dezelfde positie staan als de lijnen van de kamer waar de baseline wordt gehouden. Ik wilde ervoor zorgen dat de lijnen zouden trillen terwijl de achtergrond flitst maar dat zag er niet goed uit. Vervolgens heb ik de lijnen weggehaald en heb ik ervoor gezorgd dat het iframe schudt van links naar rechts en inzoomt. Verder zie je een intense flits op de achtergrond zodat het geluid van de hoge piep beter wordt overgebracht. De tekst heb ik lager geplaatst zodat het nog te lezen is.
+
 <img width="300" alt="portfolio_view" src="readme-fotos/lijnen.png"> <img width="300" alt="portfolio_view" src="readme-fotos/flits.png">
     
 1:17 einde van de baseline test

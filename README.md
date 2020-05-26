@@ -143,27 +143,32 @@ Ik wilde dat de kijker het gevoel kreeg alsof ze in de film zaten dus heb ik de 
 
 Ik heb de soundeffects vormgegeven en ik heb tekstueel aangegeven wat voor geluid je hoort.
 
-0:07 [ALARM]
+#### 0:07 [ALARM]
+
 Het iframe schudt heen en weer terwijl je op de achtergrond een rode flits ziet.
 
 <img width="300" alt="portfolio_view" src="readme-fotos/alarm.png"> 
 
-0:12 [BUZZ ALARM]
+#### 0:12 [BUZZ ALARM]
+
 Het iframe zoomd in en achter het iframe schijnt rood licht.
 
 <img width="300" alt="portfolio_view" src="readme-fotos/buzz alarm.png">
 
-0:17 [BEEP ALARM]
+#### 0:17 [BEEP ALARM]
+
 Het iframe zoomt in en op de achtergrond zie je dat er aan de zijkant rood licht gloeit.
 <img width="300" alt="portfolio_view" src="readme-fotos/beep alarm.png">
 
 
-0:32 [HIGH-PITCHED WHIRRING]
+#### 0:32 [HIGH-PITCHED WHIRRING]
+
 Eerst heb ik lijnen toegevoegd die op dezelfde positie staan als de lijnen van de kamer waar de baseline wordt gehouden. Ik wilde ervoor zorgen dat de lijnen zouden trillen terwijl de achtergrond flitst maar dat zag er niet goed uit. Vervolgens heb ik de lijnen weggehaald en heb ik ervoor gezorgd dat het iframe schudt van links naar rechts en inzoomt. Verder zie je een intense flits op de achtergrond zodat het geluid van de hoge piep beter wordt overgebracht. De tekst heb ik lager geplaatst zodat het nog te lezen is.
 
 <img width="300" alt="portfolio_view" src="readme-fotos/lijnen.png"> <img width="300" alt="portfolio_view" src="readme-fotos/flits.png">
     
-1:17 einde van de baseline test
+#### 1:17 einde van de baseline test
+
 Wanneer de baseline is afgelopen zie je een groen lampje om aan te tonen dat hij de baseline test heeft gehaald. Ik heb dit er uiteindelijk uitgehaald omdat ik vind dat dat groene flits er niet mooi uitziet.
 <img width="300" alt="portfolio_view" src="readme-fotos/groen licht.png">
 
@@ -176,18 +181,23 @@ Vasilis
 1.	Zorg voor een balans tussen je animaties.
 
 ## Versie 3
-0:07 [ALARM]
+#### 0:07 [ALARM]
+
 Ik heb het alarm intenser gemaakt door het meer van links naar rechts te laten schudden.
 
-0:12 [BUZZ ALARM]
+#### 0:12 [BUZZ ALARM]
+
 Ik heb ervoor gezorgd dat het iframe groter wordt.
 
-0:17 [BEEP ALARM]
+#### 0:17 [BEEP ALARM]
+
 Ook hier heb ik het ervoor gezorgd dat het iframe wat groter wordt.
 
-0:23 fuck-off, skin job!
+#### 0:23 fuck-off, skin job!
+
 Om deze line intenser te maken wordt het iframe heel klein wanneer de agent praat.
 <img width="300" alt="portfolio_view" src="readme-fotos/fuck-off.png">
 
-0:32 [HIGH-PITCHED WHIRRING]
+#### 0:32 [HIGH-PITCHED WHIRRING]
+
 Ik heb geprobeerd om deze scene minder intens te maken. Van 0:32-0:58 de scene schudt het iframe en zie je een flits op de achtergrond daarna wordt het schudden en flitsen veel intenser. Van 0:58-1:16 wordt het schudden veel intenser en flitst de achtergrond sneller. Om 1:17 stopt het schudden en flitsen en gaat het iframe terug naar zijn normale formaat.

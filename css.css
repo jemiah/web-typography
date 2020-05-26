@@ -236,14 +236,14 @@ margin-right: 25em;
 
 .sound8 #closed-captions p {
     margin-top: 8em;
-    margin-left: 23.5em;
+    margin-left: 25em;
 }
 
 .sound8 {
     background-color: #A8B29C;
     animation-name: flits1;
     animation-duration: 1s;
-    animation-iteration-count: 28;
+    animation-iteration-count: 31;
     animation-delay: 0s;
 }
 @keyframes flits1 {
@@ -283,7 +283,7 @@ margin-right: 25em;
     animation-name: shaken1;
     animation-duration: 1s;
     animation-fill-mode: both;
-    animation-iteration-count: 25;
+    animation-iteration-count: 27;
 }
 
 @keyframes shaken1 {

@@ -182,22 +182,17 @@ Vasilis
 
 ## Versie 3
 #### 0:07 [ALARM]
-
 Ik heb het alarm intenser gemaakt door het meer van links naar rechts te laten schudden.
 
 #### 0:12 [BUZZ ALARM]
-
 Ik heb ervoor gezorgd dat het iframe groter wordt.
 
 #### 0:17 [BEEP ALARM]
-
 Ook hier heb ik het ervoor gezorgd dat het iframe wat groter wordt.
 
 #### 0:23 fuck-off, skin job!
-
 Om deze line intenser te maken wordt het iframe heel klein wanneer de agent praat.
 <img width="300" alt="portfolio_view" src="readme-fotos/fuck-off.png">
 
 #### 0:32 [HIGH-PITCHED WHIRRING]
-
 Ik heb geprobeerd om deze scene minder intens te maken. Van 0:32-0:58 de scene schudt het iframe en zie je een flits op de achtergrond daarna wordt het schudden en flitsen veel intenser. Van 0:58-1:16 wordt het schudden veel intenser en flitst de achtergrond sneller. Om 1:17 stopt het schudden en flitsen en gaat het iframe terug naar zijn normale formaat.

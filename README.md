@@ -138,7 +138,7 @@ Vasilis
 
 ## Versie 2
 Ik heb alle feedback van week 1 verwerkt en ik ben gaan experimenteren.
-Ik wilde dat de kijker het gevoel kreeg alsof ze in de film zaten dus heb ik de achtergrond dezelfde kleur gegeven als de kleur van de achtergrond van de film.
+Ik wilde dat de kijker het gevoel kreeg alsof ze in de film zaten dus heb ik de achtergrond dezelfde kleur gegeven als de kleur van de achtergrond van de film. Ook staat het iframe nu in het midden in plaats van links in de hoek.
 
 <img width="300" alt="portfolio_view" src="readme-fotos/zwart.png">  <img width="300" alt="portfolio_view" src="readme-fotos/groen.png">
 
